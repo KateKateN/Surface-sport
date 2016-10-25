@@ -1081,7 +1081,7 @@ footer ul {
     height: 530px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 414px) {
   .logo-text {
     display: none;
   }
