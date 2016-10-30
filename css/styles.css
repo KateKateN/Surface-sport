@@ -369,7 +369,6 @@ header {
 }
 .about-us .title {
   font-family: 'Work Sans', sans-serif;
-  color: black;
   font-size: 50px;
   color: #ee7e7;
   font-weight: 600;
@@ -493,18 +492,20 @@ input[placeholder] {
   background: rgba(94, 66, 176, 0.1);
 }
 .btn-send {
-  background-color: #5e42b0;
   width: 70%;
   padding: 10px 0;
-  border-radius: 30px;
   display: flex;
+  font-size: 16px;
+  text-transform: uppercase;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: #5e42b0;
   color: white;
-  font-size: 16px;
-  text-transform: uppercase;
   border: none;
+  border-radius: 30px;
   -webkit-box-shadow: 5px 5px 0px 0px #a5a5be;
   -moz-box-shadow: 5px 5px 0px 0px #a5a5be;
   box-shadow: 5px 5px 0px 0px #a5a5be;
@@ -1194,7 +1195,7 @@ footer ul {
   }
   .ath-gr .num {
     font-size: 17px;
-    border-bottom: 3px solid #5e42b0;
+    border-bottom: 3px solid #efefef;
   }
   .ath-gr .sub-title {
     font-size: 22px;
@@ -1364,7 +1365,7 @@ footer ul {
     justify-content: flex-start;
   }
 }
-@media screen and (max-width: 336px) {
+@media screen and (max-width: 350px) {
   .footer-socials {
     top: 650px;
     padding: 20px 0px;
